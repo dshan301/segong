@@ -16,7 +16,7 @@
   var plus2=document.getElementById('plus2').value;
   var sumBotton=document.getElementById('sumBotton');
   var end;
-  if (plus2/plus1 > 0.35) {
+  if (plus2/plus1 > 0.40) {
   end = "인건비가 높습니다." }
   else {
   end = "인건비가 적당합니다."
@@ -26,13 +26,13 @@
  </script>
  </head>
  <body>
- <h2>SEGONG 진단</h2>
+ <h2><strong>SEGONG 진단</strong></h2>
  <p>
- <h1>매출 : <input id='plus1' width="200"></h1>
- <h1>인건 : <input id='plus2' width="200"></h1>
- <h1>결과 : <input id='end' width="200"></h1>
+ <h2>매출 : <input id='plus1' width="200"></h2>
+ <h2>인건 : <input id='plus2' width="200"></h2>
+ <h2>결과 : <input id='end' width="200"></h2>
 
- <input type='button' value='계산' onclick='allsum();' width="200">
+ <input type='button' value='실행' onclick='allsum();' width="200">
 
  </p>
 </body>
