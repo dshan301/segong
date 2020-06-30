@@ -1,19 +1,39 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>세탁공장 세탁공유
-        </title>
-        <meta charset="utf-8">
-    </head>
-    <body>
-      <h1><a href="index.html">SEGONG</a></h1>
-        <ol>
-            <li><a href="1.html">SEGONG 소개</a></li>
-            <LI><a href="2.html">SEGONG 진단</a></LI>
-            <LI><a href="3.html">SEGONG 질문</a></LI>
-        </ol>
-        <h2>SEGONG 질문</h2>
-        <img src="http://blogfiles.naver.net/20120916_289/happyalice79_1347804601789HxaWc_PNG/%C1%FA%B9%AE.png" alt="질문" width="500">
+  <head>
+    <title>세탁공장 진단</title>
+  <h1><a href="index.html">SEGONG</a></h1>
+    <ol>
+        <li><a href="1.html">SEGONG 소개</a></li>
+        <LI><a href="2.html">SEGONG 진단</a></LI>
+        <LI><a href="3.html">SEGONG 질문</a></LI>
+    </ol>
+ <meta charset="utf-8">
+ <script>
+ function allsum()
+ {
+  var plus1=document.getElementById('plus1').value;
+  var plus2=document.getElementById('plus2').value;
+  var sumBotton=document.getElementById('sumBotton');
+  var end;
+  if (plus2/plus1 > 0.40) {
+  end = "인건비가 높습니다." }
+  else {
+  end = "인건비가 적당합니다."
+  }
+  document.getElementById('end').value = end;
+ }
+ </script>
+ </head>
+ <body>
+ <h2>SEGONG 진단</h2>
+ <p>
+ <h2>매출 : <input id='plus1' width="200"></h2>
+ <h2>인건 : <input id='plus2' width="200"></h2>
+ <h2>결과 : <input id='end' width="200"></h2>
 
-        </p>
-    </body>
+ <input type='button' value='실행' onclick='allsum();' width="200">
+
+ </p>
+</body>
 </html>
