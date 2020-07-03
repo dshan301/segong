@@ -3,7 +3,7 @@ body{
 }
 h1{
   text-align: center;
-  border-bottom:1px solid skyblue;
+  border-bottom:2px solid gray;
   margin : 0px;
   padding: 50px;
   font-size: 80px;
@@ -19,7 +19,7 @@ a {
 
 }
 #grid ol{
-  border-right: 1px solid gray;
+  border-right: 2px solid gray;
   width: 250px;
   margin: 0px;
   padding: 20px;
