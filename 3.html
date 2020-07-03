@@ -1,47 +1,24 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    <title>세탁공장 진단</title>
     <meta charset="utf-8">
+    <title>segong-dia</title>
     <link rel="stylesheet" href="style.css">
-  <h1><a href="index.html">SEGONG</a></h1>
-  <div id="grid">
-    <ol>
-        <li><a href="1.html">SEGONG 소개</a></li>
-        <li><a href="2.html">SEGONG 회원</a></li>
-        <LI><a href="3.html">SEGONG 진단</a></LI>
-        <LI><a href="4.html">SEGONG 질문</a></LI>
-    </ol>
- <div id="본문">
-
- <h2>SEGONG 진단</h2>
-
- <script>
- function allsum()
- {
-  var plus1=document.getElementById('plus1').value;
-  var plus2=document.getElementById('plus2').value;
-  var sumBotton=document.getElementById('sumBotton');
-  var end;
-  if (plus2/plus1 > 0.40) {
-  end = "인건비가 높습니다." }
-  else {
-  end = "인건비가 적당합니다."
-  }
-  document.getElementById('end').value = end;
- }
- </script>
- </head>
- <body>
- <p>
- <h2>매출 : <input id='plus1' width="200"></h2>
- <h2>인건 : <input id='plus2' width="200"></h2>
- <h2>결과 : <input id='end' width="200"></h2>
-
- <input type='button' value='실행' onclick='allsum();' width="200">
-</div>
-</div>
- </p>
-</body>
+  </head>
+  <body>
+    <h1><a href="index.html">SEGONG</a></h1>
+    <div id="grid">
+      <ol>
+        <li><a href="1.html">Intro(소개)</a></li>
+        <li><a href="2.html">Matching(매칭)</a></li>
+        <li><a href="3.html" class="saw" style="color:red">Diagnosis(진단)</a></li>
+        <li><a href="4.html">List(리스트)</a></li>
+        <li><a href="5.html">Date(자료실)</a></li>
+        <li><a href="6.html">Borad(게시판)</a></li>
+      </ol>
+    <div>
+    <h2> DIAGNOSIS </h2>
+    </div>
+    </div>
+  </body>
 </html>

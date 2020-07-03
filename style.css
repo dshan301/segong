@@ -3,30 +3,38 @@ body{
 }
 h1{
   text-align: center;
-  border-bottom:1px solid gray;
+  border-bottom:1px solid red;
   margin : 0px;
-  padding: 20px;
+  padding: 50px;
+  font-size: 80px;
 }
+a {
+  text-decoration: none;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  margin left: 1px;
+  padding left: 1px;
 
+}
 #grid ol{
-  border-right: 1px solid gray;
-  width: 150px;
+  border-right: 1px solid red;
+  width: 250px;
   margin: 0px;
   padding: 20px;
   padding-left: 33px;
-p{
+}
 
-}
-}
-#grid{
-  display: grid;
-  grid-template-columns: 150px 1fr;
-}
 #본문{
-  padding-left: 80px;
+  padding-left: 20px;
+  margin: 100px
 }
-#소개{
-  font-size: 20px;
+
+h1 {
+  color: gray;
+  text-decoration: none;
+
 }
 @media (max-width:800px) {
   #grid{
